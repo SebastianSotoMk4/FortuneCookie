@@ -33,6 +33,7 @@ Module FortuneCookie
             Case Else
                 Console.WriteLine("if you are reading this it did work right")
         End Select
+        Console.ReadLine()
     End Sub
     Function RandomNumber() As Integer
         Dim rndNum As Integer
