@@ -7,7 +7,6 @@ Option Strict On
 Option Explicit On
 Option Compare Text
 Module FortuneCookie
-
     Sub Main()
         Select Case RandomNumber()
             Case 1 To 10
