@@ -36,8 +36,8 @@ Module FortuneCookie
     End Sub
     Function RandomNumber() As Integer
         Dim rndNum As Integer
-        Randomize()
-        rndNum = CInt(Rnd() * 50)
+        Randomize(Now.Millisecond)
+        rndNum = CInt(Rnd() * 100)
         Return rndNum
     End Function
 End Module
